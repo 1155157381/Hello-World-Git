@@ -1,0 +1,22 @@
+# This is a basic workflow to help you get started with Actions
+
+
+# This is a basic workflow to help you get started with Actions
+
+name: Greeting from Or Tin Chun Timothy
+
+# Controls when the action will run. 
+on: push
+  # Triggers the workflow on push or pull request events but only for the main branch
+jobs:
+  my-job:
+  runs-on: macOs-Big-Sur
+  steps:
+  -name: Print a greeting
+    env:
+    MY_VAR: Hi there! My name is
+    FIRST_NAME: Or
+    MIDDLE_NAME: Tin Chun 
+    LAST_NAME: Timothy
+  run: 
+  echo $MY_VAR $FIRST_NAME $MIDDLE_NAME $LAST_NAME.
