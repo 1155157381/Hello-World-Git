@@ -10,7 +10,7 @@ jobs:
   runs-on: macOs-Big-Sur
   steps:
   -name: Print a greeting
-    env:
+   env:
     MY_VAR: Hi there! My name is
     FIRST_NAME: Or
     MIDDLE_NAME: Tin Chun 
